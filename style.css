@@ -1,0 +1,134 @@
+* {
+    color: rgba(0, 0, 0, 0.653);    
+    font-family: Gilroy;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg,slateblue 40% ,crimson 50%);
+    width: 100%;
+    height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading > p {
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.card {
+    backdrop-filter: blur(10px);
+    background: linear-gradient( rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.32);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+}
+
+.searchbox {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox > input {
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.45);
+    padding-left: 1rem;
+    border-radius: 30px;
+    height: 35px;
+    font-family: Gilroy;
+    width: 210px;
+    margin-right: 1rem;
+}
+
+.searchbox > button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+button > i {
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+i:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.error {
+    display: flex;
+    text-align: left;
+    padding-left: 45px;
+    display: none;
+}
+
+.error > p {
+    font-size: small;
+}
+
+.city {
+    display: none;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+
+
+.weather_detail {
+    height: auto;
+    display: none;
+    transition: all ease-in-out 1s;
+}
+
+.weather {
+    font-size: 50px;
+}
+
+.temperature {
+    font-size: 30px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#humidity > p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#wind_speed > p {
+    font-weight: 600;
+    font-size: 20px;
+}

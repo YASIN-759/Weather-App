@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+
+        <div class="heading">
+            <p>weather app</p>
+        </div>
+
+        <div class="searchbox">
+            <input type="text" placeholder="Annidiya City Da Naa Type ker" spellcheck="false" name="input">
+            <button class="btn"><i class='bx bx-search'></i></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+
+        <p class="city"></p>
+
+        <div class="weather_detail">
+            <h1 class="weather"></h1>
+            <h2 class="temperature">ad</h2>
+            <div class="detail">
+                <div id="col">
+                    <div id="humidity">
+                        <p>Humidity</p>
+                        <p id="humidity_score">
+                            
+                        </p>
+                    </div>
+                </div>
+                
+                <div id="col">
+                    <div id="wind_speed">
+                        <p>Wind Speed</p>
+                        <p id="wind_speed_score">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
